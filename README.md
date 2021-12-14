@@ -1,6 +1,8 @@
 # SWE
 Installation Process:
-You need to install Xcode on your machine.Open the file in Xcode. Then run the project.
+1.You need to install Xcode on your machine.
+2.Open the file in Xcode. 
+3.Then run the project.
 
 #############################################################################################################################
 
