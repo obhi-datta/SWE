@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD0E4732767FA3E008E7772 /* bd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E4722767FA3E008E7772 /* bd.mp3 */; };
+		5AD0E4752768004D008E7772 /* Dhono Dhanno Pushpe Bhora.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E4742768004D008E7772 /* Dhono Dhanno Pushpe Bhora.mp3 */; };
+		5AD0E477276805D4008E7772 /* O Amar Desher Mati.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E476276805D4008E7772 /* O Amar Desher Mati.mp3 */; };
+		5AD0E47927680748008E7772 /* Jonmo Amar Dhonno Holo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E47827680748008E7772 /* Jonmo Amar Dhonno Holo.mp3 */; };
+		5AD0E47B2768088D008E7772 /* Purbo Digonte Surjo Utheche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E47A2768088D008E7772 /* Purbo Digonte Surjo Utheche.mp3 */; };
+		5AD0E47D27680A41008E7772 /* Teer Hara EI Dheuer Sagor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E47C27680A41008E7772 /* Teer Hara EI Dheuer Sagor.mp3 */; };
+		5AD0E47F27680B47008E7772 /* Mago Vabna Keno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E47E27680B47008E7772 /* Mago Vabna Keno.mp3 */; };
+		5AD0E48127680C6B008E7772 /* Amra Korbo Joy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E48027680C6B008E7772 /* Amra Korbo Joy.mp3 */; };
+		5AD0E485276814D8008E7772 /* Assets.xcassets 05-53-30-807.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0E484276814D8008E7772 /* Assets.xcassets 05-53-30-807.xcassets */; };
+		7E20247D25B4901F00F045A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20247C25B4901F00F045A1 /* AppDelegate.swift */; };
+		7E20247F25B4901F00F045A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20247E25B4901F00F045A1 /* SceneDelegate.swift */; };
+		7E20248125B4901F00F045A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20248025B4901F00F045A1 /* ViewController.swift */; };
+		7E20248925B4902200F045A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E20248725B4902200F045A1 /* LaunchScreen.storyboard */; };
+		7E2024AC25B49A9400F045A1 /* bensound-thelounge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E20249825B49A9400F045A1 /* bensound-thelounge.mp3 */; };
+		7E2024AE25B49A9400F045A1 /* bensound-sunny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E20249A25B49A9400F045A1 /* bensound-sunny.mp3 */; };
+		7E2024B025B49A9400F045A1 /* bensound-love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E20249C25B49A9400F045A1 /* bensound-love.mp3 */; };
+		7E2024B225B49A9400F045A1 /* bensound-tenderness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E20249E25B49A9400F045A1 /* bensound-tenderness.mp3 */; };
+		7E2024B325B49A9400F045A1 /* bensound-buddy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E20249F25B49A9400F045A1 /* bensound-buddy.mp3 */; };
+		7E2024B425B49A9400F045A1 /* bensound-romantic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E2024A025B49A9400F045A1 /* bensound-romantic.mp3 */; };
+		7E2024B625B49A9400F045A1 /* bensound-ukulele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E2024A225B49A9400F045A1 /* bensound-ukulele.mp3 */; };
+		7E2024B725B49A9400F045A1 /* bensound-allthat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E2024A325B49A9400F045A1 /* bensound-allthat.mp3 */; };
+		7E2024B825B49A9400F045A1 /* bensound-jazzcomedy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E2024A425B49A9400F045A1 /* bensound-jazzcomedy.mp3 */; };
+		7E2024BA25B49A9400F045A1 /* bensound-cute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E2024A625B49A9400F045A1 /* bensound-cute.mp3 */; };
+		7E2024BB25B49A9400F045A1 /* bensound-jazzyfrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E2024A725B49A9400F045A1 /* bensound-jazzyfrenchy.mp3 */; };
+		7E2024BE25B49A9400F045A1 /* bensound-thejazzpiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E2024AA25B49A9400F045A1 /* bensound-thejazzpiano.mp3 */; };
+		7E2024BF25B49A9400F045A1 /* bensound-acousticbreeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E2024AB25B49A9400F045A1 /* bensound-acousticbreeze.mp3 */; };
+		7E2024C625B49BB100F045A1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2024C525B49BB100F045A1 /* Song.swift */; };
+		7E2024CA25B49BE100F045A1 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2024C925B49BE100F045A1 /* Album.swift */; };
+		7E2024CF25B4A08A00F045A1 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2024CE25B4A08A00F045A1 /* AlbumTableViewCell.swift */; };
+		7E2024D225B4A57200F045A1 /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2024D125B4A57200F045A1 /* MediaPlayer.swift */; };
+		7E2024D525B4B2C300F045A1 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2024D425B4B2C300F045A1 /* MusicPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AD0E4722767FA3E008E7772 /* bd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bd.mp3; sourceTree = "<group>"; };
+		5AD0E4742768004D008E7772 /* Dhono Dhanno Pushpe Bhora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dhono Dhanno Pushpe Bhora.mp3"; sourceTree = "<group>"; };
+		5AD0E476276805D4008E7772 /* O Amar Desher Mati.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "O Amar Desher Mati.mp3"; sourceTree = "<group>"; };
+		5AD0E47827680748008E7772 /* Jonmo Amar Dhonno Holo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jonmo Amar Dhonno Holo.mp3"; sourceTree = "<group>"; };
+		5AD0E47A2768088D008E7772 /* Purbo Digonte Surjo Utheche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Purbo Digonte Surjo Utheche.mp3"; sourceTree = "<group>"; };
+		5AD0E47C27680A41008E7772 /* Teer Hara EI Dheuer Sagor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Teer Hara EI Dheuer Sagor.mp3"; sourceTree = "<group>"; };
+		5AD0E47E27680B47008E7772 /* Mago Vabna Keno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mago Vabna Keno.mp3"; sourceTree = "<group>"; };
+		5AD0E48027680C6B008E7772 /* Amra Korbo Joy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Amra Korbo Joy.mp3"; sourceTree = "<group>"; };
+		5AD0E484276814D8008E7772 /* Assets.xcassets 05-53-30-807.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 05-53-30-807.xcassets"; sourceTree = "<group>"; };
+		7E20247925B4901F00F045A1 /* SpotifyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E20247C25B4901F00F045A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E20247E25B4901F00F045A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E20248025B4901F00F045A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E20248825B4902200F045A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E20248A25B4902200F045A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E20249825B49A9400F045A1 /* bensound-thelounge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-thelounge.mp3"; sourceTree = "<group>"; };
+		7E20249A25B49A9400F045A1 /* bensound-sunny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-sunny.mp3"; sourceTree = "<group>"; };
+		7E20249C25B49A9400F045A1 /* bensound-love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-love.mp3"; sourceTree = "<group>"; };
+		7E20249E25B49A9400F045A1 /* bensound-tenderness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-tenderness.mp3"; sourceTree = "<group>"; };
+		7E20249F25B49A9400F045A1 /* bensound-buddy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-buddy.mp3"; sourceTree = "<group>"; };
+		7E2024A025B49A9400F045A1 /* bensound-romantic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-romantic.mp3"; sourceTree = "<group>"; };
+		7E2024A225B49A9400F045A1 /* bensound-ukulele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-ukulele.mp3"; sourceTree = "<group>"; };
+		7E2024A325B49A9400F045A1 /* bensound-allthat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-allthat.mp3"; sourceTree = "<group>"; };
+		7E2024A425B49A9400F045A1 /* bensound-jazzcomedy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-jazzcomedy.mp3"; sourceTree = "<group>"; };
+		7E2024A625B49A9400F045A1 /* bensound-cute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-cute.mp3"; sourceTree = "<group>"; };
+		7E2024A725B49A9400F045A1 /* bensound-jazzyfrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-jazzyfrenchy.mp3"; sourceTree = "<group>"; };
+		7E2024AA25B49A9400F045A1 /* bensound-thejazzpiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-thejazzpiano.mp3"; sourceTree = "<group>"; };
+		7E2024AB25B49A9400F045A1 /* bensound-acousticbreeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-acousticbreeze.mp3"; sourceTree = "<group>"; };
+		7E2024C525B49BB100F045A1 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		7E2024C925B49BE100F045A1 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		7E2024CE25B4A08A00F045A1 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		7E2024D125B4A57200F045A1 /* MediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
+		7E2024D425B4B2C300F045A1 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E20247625B4901F00F045A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E20247025B4901F00F045A1 = {
+			isa = PBXGroup;
+			children = (
+				7E20247B25B4901F00F045A1 /* SpotifyClone */,
+				7E20247A25B4901F00F045A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E20247A25B4901F00F045A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E20247925B4901F00F045A1 /* SpotifyClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E20247B25B4901F00F045A1 /* SpotifyClone */ = {
+			isa = PBXGroup;
+			children = (
+				7E2024CD25B4A07400F045A1 /* Views */,
+				7E2024C425B49BA200F045A1 /* Models */,
+				7E2024C325B49B2400F045A1 /* Accoustic */,
+				7E2024C225B49AEE00F045A1 /* Bengali */,
+				7E2024C125B49AA600F045A1 /* jazz */,
+				7E20247C25B4901F00F045A1 /* AppDelegate.swift */,
+				7E20247E25B4901F00F045A1 /* SceneDelegate.swift */,
+				7E20248025B4901F00F045A1 /* ViewController.swift */,
+				5AD0E484276814D8008E7772 /* Assets.xcassets 05-53-30-807.xcassets */,
+				7E20248725B4902200F045A1 /* LaunchScreen.storyboard */,
+				7E20248A25B4902200F045A1 /* Info.plist */,
+				7E2024D425B4B2C300F045A1 /* MusicPlayerViewController.swift */,
+			);
+			path = SpotifyClone;
+			sourceTree = "<group>";
+		};
+		7E2024C125B49AA600F045A1 /* jazz */ = {
+			isa = PBXGroup;
+			children = (
+				7E2024A325B49A9400F045A1 /* bensound-allthat.mp3 */,
+				7E2024A425B49A9400F045A1 /* bensound-jazzcomedy.mp3 */,
+				7E2024A725B49A9400F045A1 /* bensound-jazzyfrenchy.mp3 */,
+				7E20249C25B49A9400F045A1 /* bensound-love.mp3 */,
+				7E2024A025B49A9400F045A1 /* bensound-romantic.mp3 */,
+				7E2024AA25B49A9400F045A1 /* bensound-thejazzpiano.mp3 */,
+				7E20249825B49A9400F045A1 /* bensound-thelounge.mp3 */,
+			);
+			path = jazz;
+			sourceTree = "<group>";
+		};
+		7E2024C225B49AEE00F045A1 /* Bengali */ = {
+			isa = PBXGroup;
+			children = (
+				5AD0E48027680C6B008E7772 /* Amra Korbo Joy.mp3 */,
+				5AD0E4722767FA3E008E7772 /* bd.mp3 */,
+				5AD0E47E27680B47008E7772 /* Mago Vabna Keno.mp3 */,
+				5AD0E47C27680A41008E7772 /* Teer Hara EI Dheuer Sagor.mp3 */,
+				5AD0E47A2768088D008E7772 /* Purbo Digonte Surjo Utheche.mp3 */,
+				5AD0E47827680748008E7772 /* Jonmo Amar Dhonno Holo.mp3 */,
+				5AD0E476276805D4008E7772 /* O Amar Desher Mati.mp3 */,
+				5AD0E4742768004D008E7772 /* Dhono Dhanno Pushpe Bhora.mp3 */,
+			);
+			path = Bengali;
+			sourceTree = "<group>";
+		};
+		7E2024C325B49B2400F045A1 /* Accoustic */ = {
+			isa = PBXGroup;
+			children = (
+				7E2024AB25B49A9400F045A1 /* bensound-acousticbreeze.mp3 */,
+				7E20249F25B49A9400F045A1 /* bensound-buddy.mp3 */,
+				7E2024A625B49A9400F045A1 /* bensound-cute.mp3 */,
+				7E20249A25B49A9400F045A1 /* bensound-sunny.mp3 */,
+				7E20249E25B49A9400F045A1 /* bensound-tenderness.mp3 */,
+				7E2024A225B49A9400F045A1 /* bensound-ukulele.mp3 */,
+			);
+			path = Accoustic;
+			sourceTree = "<group>";
+		};
+		7E2024C425B49BA200F045A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E2024C525B49BB100F045A1 /* Song.swift */,
+				7E2024C925B49BE100F045A1 /* Album.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E2024CD25B4A07400F045A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E2024CE25B4A08A00F045A1 /* AlbumTableViewCell.swift */,
+				7E2024D125B4A57200F045A1 /* MediaPlayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E20247825B4901F00F045A1 /* SpotifyClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E20248D25B4902200F045A1 /* Build configuration list for PBXNativeTarget "SpotifyClone" */;
+			buildPhases = (
+				7E20247525B4901F00F045A1 /* Sources */,
+				7E20247625B4901F00F045A1 /* Frameworks */,
+				7E20247725B4901F00F045A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyClone;
+			productName = SpotifyClone;
+			productReference = 7E20247925B4901F00F045A1 /* SpotifyClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E20247125B4901F00F045A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7E20247825B4901F00F045A1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7E20247425B4901F00F045A1 /* Build configuration list for PBXProject "SpotifyClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E20247025B4901F00F045A1;
+			productRefGroup = 7E20247A25B4901F00F045A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E20247825B4901F00F045A1 /* SpotifyClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E20247725B4901F00F045A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E20248925B4902200F045A1 /* LaunchScreen.storyboard in Resources */,
+				7E2024B825B49A9400F045A1 /* bensound-jazzcomedy.mp3 in Resources */,
+				5AD0E4732767FA3E008E7772 /* bd.mp3 in Resources */,
+				5AD0E47927680748008E7772 /* Jonmo Amar Dhonno Holo.mp3 in Resources */,
+				7E2024BE25B49A9400F045A1 /* bensound-thejazzpiano.mp3 in Resources */,
+				7E2024B225B49A9400F045A1 /* bensound-tenderness.mp3 in Resources */,
+				5AD0E47B2768088D008E7772 /* Purbo Digonte Surjo Utheche.mp3 in Resources */,
+				5AD0E48127680C6B008E7772 /* Amra Korbo Joy.mp3 in Resources */,
+				7E2024B725B49A9400F045A1 /* bensound-allthat.mp3 in Resources */,
+				5AD0E4752768004D008E7772 /* Dhono Dhanno Pushpe Bhora.mp3 in Resources */,
+				5AD0E47F27680B47008E7772 /* Mago Vabna Keno.mp3 in Resources */,
+				7E2024BF25B49A9400F045A1 /* bensound-acousticbreeze.mp3 in Resources */,
+				7E2024BB25B49A9400F045A1 /* bensound-jazzyfrenchy.mp3 in Resources */,
+				7E2024B425B49A9400F045A1 /* bensound-romantic.mp3 in Resources */,
+				7E2024B325B49A9400F045A1 /* bensound-buddy.mp3 in Resources */,
+				7E2024AE25B49A9400F045A1 /* bensound-sunny.mp3 in Resources */,
+				7E2024BA25B49A9400F045A1 /* bensound-cute.mp3 in Resources */,
+				5AD0E477276805D4008E7772 /* O Amar Desher Mati.mp3 in Resources */,
+				7E2024B625B49A9400F045A1 /* bensound-ukulele.mp3 in Resources */,
+				7E2024AC25B49A9400F045A1 /* bensound-thelounge.mp3 in Resources */,
+				7E2024B025B49A9400F045A1 /* bensound-love.mp3 in Resources */,
+				5AD0E485276814D8008E7772 /* Assets.xcassets 05-53-30-807.xcassets in Resources */,
+				5AD0E47D27680A41008E7772 /* Teer Hara EI Dheuer Sagor.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E20247525B4901F00F045A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2024C625B49BB100F045A1 /* Song.swift in Sources */,
+				7E2024D225B4A57200F045A1 /* MediaPlayer.swift in Sources */,
+				7E20248125B4901F00F045A1 /* ViewController.swift in Sources */,
+				7E20247D25B4901F00F045A1 /* AppDelegate.swift in Sources */,
+				7E20247F25B4901F00F045A1 /* SceneDelegate.swift in Sources */,
+				7E2024CA25B49BE100F045A1 /* Album.swift in Sources */,
+				7E2024CF25B4A08A00F045A1 /* AlbumTableViewCell.swift in Sources */,
+				7E2024D525B4B2C300F045A1 /* MusicPlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E20248725B4902200F045A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E20248825B4902200F045A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E20248B25B4902200F045A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E20248C25B4902200F045A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E20248E25B4902200F045A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT5M8VG699;
+				INFOPLIST_FILE = SpotifyClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dt.SpotifyClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E20248F25B4902200F045A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT5M8VG699;
+				INFOPLIST_FILE = SpotifyClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dt.SpotifyClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E20247425B4901F00F045A1 /* Build configuration list for PBXProject "SpotifyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E20248B25B4902200F045A1 /* Debug */,
+				7E20248C25B4902200F045A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E20248D25B4902200F045A1 /* Build configuration list for PBXNativeTarget "SpotifyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E20248E25B4902200F045A1 /* Debug */,
+				7E20248F25B4902200F045A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E20247125B4901F00F045A1 /* Project object */;
+}
