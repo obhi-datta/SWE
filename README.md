@@ -12,4 +12,4 @@ will start playing.The purpose of building this is to test my swift learning pro
 The following video link:
 https://drive.google.com/file/d/1Pjdn-s5iOohR8VlY-HbE6ZXsruvDQmlP/view?usp=drivesdk
 
-N.B: Music player audio is not being recorded on the screen record.
+
